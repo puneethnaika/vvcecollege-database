@@ -74,7 +74,7 @@
     }
 
     .person-image {
-        position: absoulte;
+        position: absolute;
         bottom: 190px; /* Adjust to move the image */
         right: 20px;
         width: 500px;
