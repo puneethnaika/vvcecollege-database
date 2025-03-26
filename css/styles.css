@@ -1,1 +1,102 @@
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        overflow: hidden; /* Prevent scrolling */
+    }
 
+    .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    position: relative; /* Ensure proper positioning for child elements */
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    max-width: 100px;
+    z-index: 10; /* Bring it to the front */
+}
+
+    .college-info {
+        text-align: center;
+        flex-grow: 1; /* Makes sure the text stays centered */
+    }
+
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: #d4af37;
+        margin: 0px;
+        
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+
+    .main-banner {
+        background-color: #2F4766;
+        color: white;
+        text-align: center;
+        height: 100vh; /* Full screen height */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        position: relative;
+    }
+
+    .main-banner h2 {
+        font-size: 3.5rem;
+        max-width: 50%;
+        position: relative;
+        top: -60px; /* Move text up */
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .person-image {
+        position: absolute;
+        bottom: 190px; /* Adjust to move the image */
+        right: 20px;
+        width: 600px;
+    }
+   
+    #vvcename{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    #kannada{
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+    #address{
+        margin-top: 0px;
+
+    }
+
+    nav ul li a:hover {
+        color: white;
+    }
+    
+    
+    
+  
