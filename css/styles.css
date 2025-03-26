@@ -70,6 +70,7 @@
         position: relative;
         top: -60px; /* Move text up */
         font-family: 'Times New Roman', Times, serif;
+        z-index: 10; 
     }
 
     .person-image {
